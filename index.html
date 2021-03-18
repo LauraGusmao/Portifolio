@@ -4,30 +4,83 @@
       <meta charset="UTF-8">
       <title>Portifólio Web</title>
   </head>
+  <style>
+
+    body {
+      background-color: #ded9e2;
+      font-family: helvetica, sans-serif;
+      text-align: center;
+      color: #80a1d4;
+    }
+
+    h2, h3 {
+      color: #c0b9dd;
+    }
+
+    ul {
+      list-style-position: inside;
+    }
+
+    .name-title {
+     font-family: 'helvetica neue', sans-serif;
+     color: #75c9c8;
+     text-align: center;
+    }
+
+    .index {
+      background-color: #c0b9dd;
+      color: #f7f4ea;
+      text-decoration: none;
+      margin-right: 50px;
+      margin-left: 50px;
+      border-radius: 5px;
+      padding: 6px 10px;
+    }
+
+    .name-link {
+      text-decoration: none;
+      color: #80a1d4;
+      font-style: italic;
+    } 
+
+    .links {
+      color: #75c9c8;
+    }
+
+    .about-me {
+      color: #c0b9dd;
+    }
+
+    #picture {
+      border-radius: 100%;
+    }
+
+  </style>
   <body>
-    <h1 id="nome">Laura Ribeiro de Gusmão</h1>
+    <a class="index" href=#about>Sobre mim</a>
+    <a class="index" href=#skills>Habilidades</a>
+    <a class="index" href=#links>Links</a>
+    <br><br><br>
+
+    <h1 class="name-title">Laura Ribeiro de Gusmão</h1>
     <img id="picture" src="IMG-0078.jpg" alt="Foto de Laura Gusmão sorrindo." width="300px">
     <br><br>
 
-    <a href=#about>Sobre mim</a><br>
-    <a href=#skills>Habilidades</a><br>
-    <a href=#links>Links</a>
-
-
-    <h2 id="about">Sobre mim</h2>
-    <p>Me chamo <a href="#picture">Laura Gusmão</a>, sou <strong>brasileira</strong> nascida em <strong>Belo Horizonte, Minas Gerais</strong>, onde resido atualmente. Sou formada em Engenharia Civil pela Universidade Federal de Minas Gerais, mas atualmente estou em um processo de transição de carreira para me tornar uma <strong>Desenvolvedora Web Full-Stack</strong>. Nas horas vagas gosto de passar tempo com meus amigos e familiares, assistir séries e ler um bom livro.</p>
+    <h2 class="about-me" id="about">Sobre mim</h2>
+    <p>Me chamo <a class="name-link" href="#picture">Laura Gusmão</a>, sou <strong>brasileira</strong> nascida em <strong>Belo Horizonte, Minas Gerais</strong>, onde resido atualmente. Sou formada em Engenharia Civil pela Universidade Federal de Minas Gerais, mas atualmente estou em um processo de transição de carreira para me tornar uma <strong>Desenvolvedora Web Full-Stack</strong>. Nas horas vagas gosto de passar tempo com meus amigos e familiares, assistir séries e ler um bom livro.</p>
     <br>
     <h3 id="skills">Habilidades</h3>
     <ul>
       <li>Formada em Engenharia Civil</li>
       <li><strong>Estudante de Desenvolvimento Web na Trybe</strong></li>
       <li>Falo inglês (nível avançado)</li>
-      <li>Dedicada e organizada, resiliente e muito aberta a novos aprendizados.</li>
+      <li>Excel avançado</li>
+      <li>Dedicada e organizada, resiliente e sempre buscando novos aprendizados.</li>
     </ul>
 
-    <h4 id="links">Links</h4>
-    <a href="https://www.linkedin.com/in/laurargusmao/" target="_blank">LinkedIn</a>
-    <a href="https://github.com/LauraGusmao" target="_blank">GitHub</a>
+    <h3 id="links">Links</h3>
+    <a class="links" href="https://www.linkedin.com/in/laurargusmao/" target="_blank">LinkedIn</a><br>
+    <a class="links" href="https://github.com/LauraGusmao" target="_blank">GitHub</a>
   
   </body>
 </html>
