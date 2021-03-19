@@ -1,0 +1,56 @@
+
+      body {
+        background-color: #ded9e2;
+        font-family: helvetica, sans-serif;
+        text-align: center;
+        color: #80a1d4;
+      }
+  
+      h2, h3 {
+        color: #c0b9dd;
+      }
+  
+      ul {
+        list-style-position: inside;
+      }
+  
+      .name-title {
+       font-family: 'helvetica neue', sans-serif;
+       color: #75c9c8;
+       text-align: center;
+       text-transform: uppercase;
+      }
+  
+      .index {
+        background-color: #c0b9dd;
+        color: #f7f4ea;
+        text-decoration: none;
+        margin-right: 50px;
+        margin-left: 50px;
+        border-radius: 5px;
+        padding: 6px 10px;
+      }
+  
+      .name-link {
+        text-decoration: none;
+        color: #80a1d4;
+        font-style: italic;
+      } 
+  
+      .links {
+        color: #75c9c8;
+      }
+  
+      .about-me {
+        color: #c0b9dd;
+      }
+  
+      .highlight {
+        color: #75c9c8;
+        font-weight: bold;
+      }
+  
+      #picture {
+        border-radius: 100%;
+      }
+  
